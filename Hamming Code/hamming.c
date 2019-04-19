@@ -81,7 +81,7 @@ void main()
 			printf("\nData bit %d is corrupted", err_pos);
 			temp[err_pos] = !temp[err_pos];
 			printf("\nCorrected data bits with new parity bit\n");
-			for (i - 1; i <= (k + r); ++i)
+			for (i = 1; i <= (k + r); ++i)
 				printf("%4d", temp[i]);
 		}
 	}
